@@ -1,0 +1,2 @@
+F:\UpperComputer\DataProcessing\data/img_lab/images/data234.jpg F:\UpperComputer\DataProcessing\data/annotations/data234.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data316.jpg F:\UpperComputer\DataProcessing\data/annotations/data316.xml

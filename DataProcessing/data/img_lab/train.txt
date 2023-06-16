@@ -1,0 +1,13 @@
+F:\UpperComputer\DataProcessing\data/img_lab/images/data126.jpg F:\UpperComputer\DataProcessing\data/annotations/data126.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data149.jpg F:\UpperComputer\DataProcessing\data/annotations/data149.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data159.jpg F:\UpperComputer\DataProcessing\data/annotations/data159.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data198.jpg F:\UpperComputer\DataProcessing\data/annotations/data198.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data223.jpg F:\UpperComputer\DataProcessing\data/annotations/data223.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data281.jpg F:\UpperComputer\DataProcessing\data/annotations/data281.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data303.jpg F:\UpperComputer\DataProcessing\data/annotations/data303.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data329.jpg F:\UpperComputer\DataProcessing\data/annotations/data329.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data354.jpg F:\UpperComputer\DataProcessing\data/annotations/data354.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data387.jpg F:\UpperComputer\DataProcessing\data/annotations/data387.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data418.jpg F:\UpperComputer\DataProcessing\data/annotations/data418.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data48.jpg F:\UpperComputer\DataProcessing\data/annotations/data48.xml
+F:\UpperComputer\DataProcessing\data/img_lab/images/data76.jpg F:\UpperComputer\DataProcessing\data/annotations/data76.xml
