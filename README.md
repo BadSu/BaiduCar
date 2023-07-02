@@ -17,3 +17,45 @@
 首先创建如下目录， `annotations` 文件夹存放 `xml` 文件， `img_lab/images` 存放图片， `img_lab/classes.txt` 包含所有类别名， 与上文中 `predefined_classes.txt` 内容一致。运行 `split_train_val.py` 程序可划分训练集、 验证集、 测试集， 并在 `img_lab` 文件夹下生成 `txt` 文件， 内含加载路径。（代码内可更改训练集在总数据集中占比，默认为 `0.9`）    
 
 # 二、模型训练
+
+- 平台：`AI Studio`
+- 检测模型：`yolov3_mobilenet_v1`
+
+创建`Notebook`项目并配置环境如下：
+
+- 项目框架 = `PaddlePaddle 2.2.2`
+- 项目环境 = `python 3.7`
+
+启动环境（）后，首先克隆`PaddleDetection`训练仓库，新建一个终端页面，并在终端键入以下命令：
+
+```bash
+git clone https://github.com/PaddlePaddle/PaddleDetection.git -b release/2.4
+```
+
+克隆完成后， 切换` PaddleDetection` 目录  
+
+```bash
+cd PaddleDetection
+```
+
+ 并安装必要依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
+执行编译：
+
+```bash
+python setup.py install
+```
+
+至此， `PaddleDetection` 训练环境搭建完毕.  
+
+把之前制作好的数据集整个打包， 直接上传， 右键解压即可。 数据集解压至 `PaddleDetection/dataset` 路径下,再运行以下指令解压：  
+
+```bash
+unzip -oqd /home/aistudio/PaddleDetection/dataset/ /home/aistudio/data/data186919/baidu_car0311.zip
+```
+
+解压完成后进入目录， 运行` split_train_val `程序以划分数据集：  
