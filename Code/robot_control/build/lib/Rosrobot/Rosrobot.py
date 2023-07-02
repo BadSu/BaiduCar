@@ -286,6 +286,8 @@ class rosrobot(object):
         else:
             return int(value)
 
+# -------------------------------------------公有方法---------------------------------------------
+
     # 开启接收和处理数据的线程
     # Start the thread that receives and processes data
     def create_receive_threading(self):

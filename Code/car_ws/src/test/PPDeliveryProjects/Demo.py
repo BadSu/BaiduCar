@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
-from Rosrobot import rosrobot
+from Rosmaster_Lib import Rosmaster
+# from Rosrobot import rosrobot
 import time
 import cv2
 class Test():
 
     def __init__(self):
 
-        self.car =rosrobot()
+        self.car =Rosmaster()
+        # self.car =rosrobot()
         self.car.set_car_type(1)
         self.car.create_receive_threading()
         self.car.set_pwm_servo_all(90,90,0,0)
