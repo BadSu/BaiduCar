@@ -1,0 +1,8 @@
+prefix=/home/edgeboard/car_ws/install
+
+Name: image_ros_msgs
+Description: Description of image_ros_msgs
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

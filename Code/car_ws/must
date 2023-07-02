@@ -1,0 +1,2 @@
+chmod +x /home/edgeboard/car_ws/src/hg_bringup/scripts/car_control.py
+chmod +x /home/edgeboard/car_ws/src/test/PPDeliveryProjects/*

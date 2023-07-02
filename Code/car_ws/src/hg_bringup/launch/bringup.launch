@@ -1,0 +1,33 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="base_footprint_to_base_link" 
+    args="0.0 0.0 0.0815 0.0 0.0 0.0  /base_footprint /base_link 40" />
+
+    <node pkg="tf" type="static_transform_publisher" name="base_link_to_imu_link" 
+    args="0.16 0.0 0.0 3.14 0.0 3.14  /base_link /imu_link 60" />
+  
+
+    <!-- 底层驱动节点 -->
+    <!-- Low-level driver node -->
+    <node pkg="hg_bringup" type="car_control.py" name="driver_node" required="true" output="screen">
+        <param name="imu_link" type="string" value="imu_link"/>
+        <remap from="/pub_vel" to="/vel_raw"/>
+        <remap from="/pub_imu" to="/imu/imu_raw"/>
+        <remap from="/pub_mag" to="/mag/mag_raw"/>
+    </node>
+    <!-- 发布里程计数据 -->
+    <!-- Publish odometer data -->
+    <node pkg="hg_bringup" type="base_node" name="odometry_publisher">
+        <param name="odom_frame" type="string" value="odom"/>
+        <param name="base_footprint_frame" type="string" value="base_footprint"/>
+        <param name="linear_scale_x" type="double" value="1"/>
+        <param name="linear_scale_y" type="double" value="1"/>
+        <remap from="/sub_vel" to="/vel_raw"/>
+        <remap from="/pub_odom" to="/odom"/>
+    </node>
+
+    <include file="$(find usb_cam)/launch/usb_cam-test.launch"/>
+
+
+
+</launch>
+

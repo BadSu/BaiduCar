@@ -1,0 +1,3 @@
+/home/edgeboard/work/nfs/PPDeliveryProjects/build/CMakeFiles/ppnc_smart_detection.dir
+/home/edgeboard/work/nfs/PPDeliveryProjects/build/CMakeFiles/edit_cache.dir
+/home/edgeboard/work/nfs/PPDeliveryProjects/build/CMakeFiles/rebuild_cache.dir

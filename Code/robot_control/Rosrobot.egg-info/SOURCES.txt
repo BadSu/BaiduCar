@@ -1,0 +1,8 @@
+README.md
+setup.py
+Rosrobot/Rosrobot.py
+Rosrobot/__init__.py
+Rosrobot.egg-info/PKG-INFO
+Rosrobot.egg-info/SOURCES.txt
+Rosrobot.egg-info/dependency_links.txt
+Rosrobot.egg-info/top_level.txt

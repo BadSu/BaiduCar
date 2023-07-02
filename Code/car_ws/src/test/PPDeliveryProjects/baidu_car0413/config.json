@@ -1,0 +1,5 @@
+{
+    "mode": "professional",
+    "model_dir": "/home/edgeboard/car_ws/src/test/PPDeliveryProjects/baidu_car0413",
+    "model_file": "deploy_paddle"
+}

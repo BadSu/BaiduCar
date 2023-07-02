@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/edgeboard/work/nfs/PPDeliveryProjects/build",
+  "command": "/usr/bin/c++  -I/usr/local/include/ppnc -isystem /usr/local/include/opencv -O3 -Wall -o CMakeFiles/ppnc_smart_detection.dir/cpp_demo_detection.cc.o -c /home/edgeboard/work/nfs/PPDeliveryProjects/cpp_demo_detection.cc",
+  "file": "/home/edgeboard/work/nfs/PPDeliveryProjects/cpp_demo_detection.cc"
+}
+]

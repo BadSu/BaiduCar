@@ -1,0 +1,8 @@
+prefix=/home/edgeboard/car_ws/devel
+
+Name: hg_bringup
+Description: Description of hg_bringup
+Version: 0.0.0
+Cflags: -I/home/edgeboard/car_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rosmsg rospy dynamic_reconfigure geometry_msgs nav_msgs tf

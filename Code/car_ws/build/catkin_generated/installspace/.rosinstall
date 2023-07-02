@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/edgeboard/car_ws/install/setup.sh
